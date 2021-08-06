@@ -50,7 +50,8 @@
                  <li>name-{displayData.name}</li>
                 <li>email -{displayData.email}  </li>
                 <li>website-{displayData.website}  </li>
-                
+                <li>company-{displayData.company?displayData.company.name:''} </li>
+                <li>address-{displayData.address?displayData.address.street:''} </li>
                 </div>
             )
         }
